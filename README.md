@@ -2,8 +2,6 @@
 
 A Python Code for "A physics-informed neural network-based topology optimization (PINNTO) framework for structural optimization"
 
-![](./images/image.png)
-
 <p align="center">
   <img width="460" height="300" src="./images/image.png">
 </p>
