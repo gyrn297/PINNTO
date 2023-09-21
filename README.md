@@ -9,6 +9,7 @@ A Python Code for "A physics-informed neural network-based topology optimization
 ## Citation
 If you use this code for your research please cite:
 
+'''
 @article{JEONG2023115484,
 title = {A Physics-Informed Neural Network-based Topology Optimization (PINNTO) framework for structural optimization},
 journal = {Engineering Structures},
@@ -22,3 +23,31 @@ author = {Hyogu Jeong and Jinshuai Bai and C.P. Batuwatta-Gamage and Charith Rat
 keywords = {Topology optimization, Physics informed neural network, Machine learning, Solid mechanics},
 abstract = {Physics-Informed Neural Networks (PINNs) have recently attracted exponentially increasing attention in the field of computational mechanics. This paper proposes a novel topology optimization framework: Physics-Informed Neural Network-based Topology Optimization (PINNTO). Unlike existing machine-learning based topology optimization frameworks, PINNTO employs an energy-based PINN to replace Finite Element Analysis (FEA) in the conventional structural topology optimization, to numerically determine the deformation states, which is a key novelty in the proposed methodology. A supervised neural network that respects governing physical laws defined via partial differential equations is trained to develop the corresponding network without any labelled data, with the intention of solving solid mechanics problems. To assess feasibility and potential of the proposed PINNTO framework, a number of topology-optimization-related case studies have been implemented. The subsequent findings illustrate that PINNTO has the ability to attain optimized topologies with neither labelled data nor FEA. In addition, it has the capability to generate comparable designs to those produced by the current successful approaches such as Solid Isotropic Material with Penalization (SIMP). Based on the results of this study, it can also be deduced that PINNTO can acquire optimal topologies for various types of complex domains given that the boundary conditions and loading configurations are correctly imposed for the associated energy-based PINN. Consequently, the proposed PINNTO framework has demonstrated promising capabilities to solve problems under conditions when the usage of FEA is challenged (if not impossible). In summary, the proposed PINNTO framework opens up a new avenue for structural design in this ‘data-rich’ age.}
 }
+'''
+
+```
+@article{Gaboardi2021,
+    doi       = {10.21105/joss.02826},
+    url       = {https://doi.org/10.21105/joss.02826},
+    year      = {2021},
+    publisher = {The Open Journal},
+    volume    = {6},
+    number    = {62},
+    pages     = {2826},
+    author    = {James D. Gaboardi and Sergio Rey and Stefanie Lumnitz},
+    title     = {spaghetti: spatial network analysis in PySAL},
+    journal   = {Journal of Open Source Software}
+}
+
+@misc{Gaboardi2018,
+    author    = {Gaboardi, James D. and Laura, Jay and Rey, Sergio and 
+                 Wolf, Levi John and Folch, David C. and Kang, Wei and 
+                 Stephens, Philip and Schmidt, Charles},
+    month     = {oct},
+    year      = {2018},
+    title     = {pysal/spaghetti},
+    url       = {https://github.com/pysal/spaghetti},
+    doi       = {10.5281/zenodo.1343650},
+    keywords  = {graph-theory,network-analysis,python,spatial-networks,topology}
+}
+```
