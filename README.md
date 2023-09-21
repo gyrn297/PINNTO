@@ -4,6 +4,9 @@ A Python Code for "A physics-informed neural network-based topology optimization
 
 ![](./images/image.png)
 
+<p align="center">
+  <img width="460" height="300" src="./images/image.png">
+</p>
 
 ## Developer
 [Google Scholar] https://scholar.google.com.au/citations?user=0mMGH1wAAAAJ&hl=en
