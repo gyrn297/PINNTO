@@ -3,7 +3,7 @@
 A Python Code for "A physics-informed neural network-based topology optimization (PINNTO) framework for structural optimization"
 
 ![](./images/image.png)
-images/image.png
+
 
 ## Developer
 [Google Scholar] https://scholar.google.com.au/citations?user=0mMGH1wAAAAJ&hl=en
